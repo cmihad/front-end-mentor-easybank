@@ -37,12 +37,13 @@ img{
   max-width: 100%;
 }
 .btn{
-    width: 150px;
-    height: 35px;
+    width: 175px;
+    height: 45px;
     border-radius: 50px;
     background-image: linear-gradient(to right, var(--LimeGreen) , var(--BrightCyan));
     border: none;
     color: white;
+    font-size: 18px;
 
 }
 .btn:hover{
@@ -139,7 +140,6 @@ banner
   font-weight: 400;
   font-size: 55px;
   
- 
   padding: 0 25px;
   padding-bottom: 20px;
 }
