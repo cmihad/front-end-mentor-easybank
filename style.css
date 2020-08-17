@@ -95,7 +95,6 @@ header{
   border-bottom: 3px solid rgba(45,130,68,1) ;
  
 
-
 }
 .nav_links li a:active{
   border-bottom: 3px solid red;
@@ -130,6 +129,36 @@ banner
   justify-content: center;
   
 }
+
+.header-left{
+  text-align: center;
+  background-color: var(--VeryLightGray);
+}
+.header-left h1{
+  color:var(--DarkBlue);
+  font-weight: 400;
+  font-size: 55px;
+  
+ 
+  padding: 0 25px;
+  padding-bottom: 20px;
+}
+.header-left p{
+  color:var(--GrayishBlue);
+  font-weight: 300;
+  font-size: 15px; 
+  padding: 0 45px;
+  padding-bottom: 35px;
+}
+.header-left .btn{
+  display: inline-block;
+  margin-bottom: 100px;
+}
+.col{
+  text-align: center;
+}
+
+
 
 
  /* 
@@ -281,24 +310,23 @@ Mobile
     line-height: 50px;
    
     padding: 0 25px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
   }
   .header-left p{
     color:var(--GrayishBlue);
     font-weight: 300;
     font-size: 15px; 
     padding: 0 45px;
-    padding-bottom: 15px;
+    padding-bottom: 35px;
   }
   .header-left .btn{
     display: inline-block;
+    margin-bottom: 100px;
   }
   .col{
     text-align: center;
   }
-  .cent{
-    text-align: center;
-  }
+  
   
   .box{
     display: grid;
